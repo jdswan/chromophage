@@ -30,7 +30,7 @@ Three initial phages colonize an image to extinction over 556 simulation turns.
 Phage Behavior 
 --------- 
 **Eating and Excreting**   
-At any given time, a phage is living on a specific pixel. Each turn, a phage will attempt to consume 2^n^ from the integer value of the 8-bit digital color channel it identifies as food. If the integer value of the color channel is smaller than 2^n^, the phage is unable to eat. If the phage was able to eat the previous turn, it will excrete 2^m^ of its waste color, adding the value to the appropriate color channel.  
+At any given time, a phage is living on a specific pixel. Each turn, a phage will attempt to consume 2<sup>n</sup> from the integer value of the 8-bit digital color channel it identifies as food. If the integer value of the color channel is smaller than 2<sup>n</sup>, the phage is unable to eat. If the phage was able to eat the previous turn, it will excrete 2<sup>m</sup> of its waste color, adding the value to the appropriate color channel.  
 
 Taking the red, blue, and green color channels as 0, 1, and 2 respectively, the integer value of attributes `phage.food` and `phage.waste` and used to identify the appropriate RBG color channel to modify. The integer values of *n* and *m* are set by attributes `phage.consume` and `phage.excrete`.
  
