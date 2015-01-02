@@ -1,11 +1,7 @@
 Chromophage
 ===========
 
-**Simulated organisms that eat and poop colors**
-
-*Currently very in-progress.  
-Command line demo very soon.  
-GUI very not soon.*
+**Simulated organisms that eat and poop colors in Python3**
 
 Introduction
 ---------
