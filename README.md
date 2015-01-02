@@ -14,11 +14,11 @@ Examples
 ---------
 
 ![Original Image](http://i.imgur.com/BkQUI3U.gif "")  
-A single initial phage completely colonizes an image within 300 turns.  
+A single initial phage completely colonizes an image over 300 turns.  
 50 turns / frame.
 
 ![Original Image](http://i.imgur.com/rjhCHQ1.gif "")  
-Three initial phages colonize an image to extinction over 556 simulation turns.  
+Three initial phages colonize an image to extinction over 550 turns.  
 50 turns / frame.
 
 
