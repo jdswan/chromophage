@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from Simulation import Simulation
 from random import randint
 
