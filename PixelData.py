@@ -1,4 +1,4 @@
-
+#!/usr/bin/python3
 
 class PixelData:
     def __init__(self, coord, color_tuple, population):
