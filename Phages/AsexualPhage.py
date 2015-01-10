@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from Phages.MortalPhage import MortalPhage
 from copy import deepcopy
 
