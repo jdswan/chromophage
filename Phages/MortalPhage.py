@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import random
 from Phages.SimplePhage import SimplePhage
 
