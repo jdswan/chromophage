@@ -54,8 +54,8 @@ class Simulation:
         
     def make_pixel_data(self, x, y):
         """Return PixelData object for pixel (x,y)"""
-        coord = (x,y)
-        p = PixelData(coord, self.img.getpixel(coord), self.get_population(coord))
+        #coord = (x,y)
+        p = PixelData((x,y), self.img.getpixel((x,y)), self.get_population((x,y)))
         p.neighboring_pixels = self.neighboring_pixel_data(x, y)
         return p
     ###
