@@ -18,7 +18,7 @@ class Simulation:
             pixel_data = self.make_pixel_data(phage.x, phage.y)
             new_pxl = phage.update(pixel_data, self.colony)
             self.img.putpixel((new_pxl[0][0], new_pxl[0][1]), self.bound_rbg_tuple(new_pxl[1]))
-            self.remove_dead_phages()
+        self.remove_dead_phages()
             
     ###SETUP FUNCTIONS    
     def add_phage_to_colony(self, phage_class, x, y, **kwargs):
