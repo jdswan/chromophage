@@ -3,6 +3,10 @@ Chromophage
 
 **Simulated organisms that eat and poop colors in Python3**
 
+I have this idea about automatons that live in computer files. This probably has something to do with watching Reboot as a kid.
+
+This is just an attempt to see some of this idea in action.
+
 Introduction
 ---------
 
