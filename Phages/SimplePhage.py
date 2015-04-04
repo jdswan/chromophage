@@ -45,7 +45,7 @@ class SimplePhage(object):
     def eat(self, color_tuple):                     #color_tuple is RBG value tuple
         """Return RBG color tuple modified by eating"""
         colors = [color for color in color_tuple]   #tuple dosn't support assignment, make list
-        colors[self.food] -= 2**self.consume        #decrement appropriate color value
+        list(colors)[self.food] -= 2**self.consume        #decrement appropriate color value
         self.full = True                            #toggle self.full
         return tuple(color for color in colors)     #return modified RBG value tuple
     
